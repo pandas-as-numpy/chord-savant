@@ -1,0 +1,452 @@
+
+
+body{
+    overflow-x: hidden;
+    
+}
+.chord{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    top: -850px;
+    font-weight: 700;
+    font-size: 100px;
+    font-family: "Roboto",sans-serif;
+    /* font-family: 'Bebas Neue', sans-serif; */
+   margin: 0;
+    -webkit-text-stroke: 1px #fff;
+   background: url(back.png);
+   -webkit-background-clip: text;
+   background-position: 0 0;
+   animation: back 7s linear infinite;    
+}
+@keyframes back{
+    100%{
+        background-position: 1000px 1000px;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    overflow: hidden;
+    margin: 0px;
+    padding: 10px;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+
+
+   
+
+}
+.home{
+    
+    background-color: rgb(0, 0, 0);
+    color:rgb(248, 247, 247) ;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+
+
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+    
+}
+button{
+    cursor: pointer;
+}
+.abt{
+    
+    background-color: rgb(0, 0, 0);
+    color:rgb(248, 247, 247) ;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+    margin-right: 20px;
+
+   
+}
+.upload{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    border:  1px solid rgba(255, 255, 255,0.1) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 180px;
+    background-color: rgb(167, 65, 207);
+    padding: 10px 0px;
+    border-radius: 10px;
+    color:aliceblue;
+/* this is the first comment */
+
+
+  
+}
+#fileip{
+ visibility: hidden;
+ width: 0;
+ 
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:0px 100px ;
+
+
+}
+.upload:hover{
+    cursor: pointer;
+    
+    background-color: rgb(112, 27, 146);
+    text-shadow:6px 0px 5px rgb(33, 192, 144);
+}
+.link button:hover{
+    cursor: pointer;
+    background-color: rgb(112, 27, 146);
+    
+   
+}
+.sub:hover{ 
+    text-shadow:6px 0px 5px rgb(33, 192, 144);
+    
+}
+
+body{
+   
+    background-color: rgb(28, 11, 77);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    
+}
+
+ 
+ .main{
+    flex-wrap: wrap;
+    display: flex;
+    background-color: rgb(28, 11, 77);
+    margin: 0;
+    justify-content: center;
+    align-items:center ;
+    width: 100%;
+    height: 100vh;
+    padding: 0px 50px;
+    
+}
+.link{
+    padding: 50px 100px;
+}
+.link button{
+    position: relative;
+    border:  1px solid rgba(255, 255, 255,0.1) ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    width: 180px;
+    background-color: rgb(167, 65, 207);
+    padding: 9px 0px;
+    border-radius: 10px;
+    right: -15px;
+    color: aliceblue;
+ 
+}
+ .home:hover{
+    color:rgb(248, 0, 116);
+    
+    transition: 0.5s ease;
+ }
+ .abt:hover{
+    color:rgb(248, 0, 116);
+    
+    transition: 0.5s ease;
+ }
+ 
+ #yt{
+    margin : 0;
+    border: 5px solid rgb(33, 192, 144);
+    outline: none;
+    padding-right: 50px;
+    border-radius: 30px;
+    padding:10px 10px;
+    width:300px;
+ 
+    
+ }
+ 
+
+
+
+     @media only screen and (min-width: 600px) and (max-width: 991px) {
+        .nav button {
+            position: relative;
+            display: block;
+          justify-content: center;
+          
+        }
+    
+        .link {
+            flex-direction: row;
+        }
+    
+        .link input,
+        .link button {
+            width :100%;
+
+            
+        }
+    
+        .nav{
+            display: flex;
+            background-color: black;
+            overflow: hidden;
+            margin: 0px;
+            padding: 3px;
+          position: fixed;
+          width: 100%;
+           
+        
+        }
+        .home{
+            display: flex;
+            background-color: rgb(0, 0, 0);
+            color:whitesmoke ;
+            border-radius: 20px;
+            padding: 10px;
+          border: none;
+    
+        
+        }
+        .upload{
+            position: relative;
+            flex-wrap: wrap;
+            display: flex;
+            right: 30px;
+            
+            justify-content: center;
+            border:  1px solid rgba(255, 255, 255,0.1) ;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            width: 80px;
+            background-color: rgb(167, 65, 207);
+            padding: 10px 0px;
+            border-radius: 10px;
+            color:aliceblue;
+            left: -60px; 
+            bottom: -70px;
+          
+        }
+     .main{
+        flex-direction: column;
+       margin: 0;
+       padding: 0px 50px;
+     }
+    
+    
+    
+   
+    @keyframes back{
+        100%{
+            background-position: 2000px 0px;
+        }
+    }
+    .abt{
+        
+        background-color: rgb(0, 0, 0);
+        color:rgb(248, 247, 247) ;
+        padding: 10px;
+        font-weight: 700;
+        font-size: 15px;
+        font-family: "Roboto", sans-serif;
+        border: none;
+    
+       
+    }
+    .home:hover{
+        color:rgb(248, 0, 116);
+        
+        transition: 0.5s ease;
+     }
+     .abt:hover{
+        color:rgb(248, 0, 116);
+        
+        transition: 0.5s ease;
+     }
+     #yt{
+        margin : 0;
+        border: 5px solid rgb(33, 192, 144);
+        outline: none;
+        padding-right: 50px;
+        border-radius: 30px;
+        padding:10px 10px;
+        width:200px;
+     
+     }
+     .chord{
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: star;
+        color: transparent;
+        top: -830px;
+        font-weight: 700;
+        font-size: 100px;
+        font-family: "Roboto",sans-serif;
+       margin: 0;
+        -webkit-text-stroke: 1px #fff;
+       background: url(back.png);
+       -webkit-background-clip: text;
+       background-position: 0 0;
+       animation: back 20s linear infinite;    
+    }
+}
+
+ 
+
+@media only screen and (max-width: 599px)  {
+   
+    .nav button {
+        position: relative;
+        display: fixed;
+      justify-content: center;
+      
+    }
+
+    .link {
+        flex-direction: row;
+    }
+
+    .link input,
+    .link button {
+        width: 80px;
+        position: relative;
+        left: -60px;
+        bottom: -50px;
+        
+    }
+    .link button{
+     font-size: 20px;
+    }
+
+    .nav{
+        display: flex;
+        background-color: black;
+        overflow: hidden;
+        margin: 0px;
+        padding: 3px;
+      position: fixed;
+      width: 100%;
+       
+    
+    }
+    .home{
+        display: flex;
+        background-color: rgb(0, 0, 0);
+        color:whitesmoke ;
+        border-radius: 20px;
+        padding: 10px;
+      border: none;
+
+    }
+    
+    .upload{
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: center;
+        border:  1px solid rgba(255, 255, 255,0.1) ;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        width: 80px;
+        background-color: rgb(167, 65, 207);
+        padding: 10px 0px;
+        border-radius: 10px;
+        color:aliceblue;
+        left: -60px; 
+        bottom: -70px;
+    
+    }
+ .main{
+    flex-direction: column;
+   margin: 0;
+   padding: 0px 50px;
+ }
+
+
+
+.chord{
+    position: relative;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    color: transparent;
+    top: -600px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    font-family: "Roboto",sans-serif;
+   margin: 0;
+    -webkit-text-stroke: 1px #fff;
+   background: url(back.png);
+   -webkit-background-clip: text;
+   background-position: 0 0;
+   animation: back 20s linear infinite;  
+   left: 10px;  
+   flex-direction: row;
+
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0px;
+    }
+}
+.abt{
+    
+    background-color: rgb(0, 0, 0);
+    color:rgb(248, 247, 247) ;
+    padding: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    border: none;
+
+   
+}
+.home:hover{
+    color:rgb(248, 0, 116);
+    
+    transition: 0.5s ease;
+ }
+ .abt:hover{
+    color:rgb(248, 0, 116);
+    
+    transition: 0.5s ease;
+ }
+ #yt{
+    margin : 0;
+    border: 5px solid rgb(33, 192, 144);
+    outline: none;
+    padding-right: 50px;
+    border-radius: 30px;
+    padding:10px 10px;
+    width:200px;
+ }
+}
+
+.subbtn{
+    left: 20px;
+}
